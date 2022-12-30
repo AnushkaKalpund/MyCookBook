@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCookBook</title>
+    <style>
+        .heading {
+            color: crimson;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+            position: sticky;
+        }
+
+        .D1 {
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+
+        .items {
+            margin: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration-line: none;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(71, 62, 62);
+        }
+
+        hr {
+            color: palevioletred;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: rgb(4, 155, 4);
+            font-size: x-large;
+        }
+
+        .el {
+            margin: 1px;
+            border: 1px solid black;
+
+        }
+        .coloum {
+        float: right;
+       }
+
+       .coloum1 {
+        float: left;
+        }
+
+        .section {
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            top: 17px;
+            left: 50px;
+            color: blanchedalmond;
+            background-color: crimson;
+        }
+
+        .highlight {
+            padding-bottom: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .elements {
+            margin: 40px;
+            width: 300px;
+            height: 300px;
+            display: inline;
+            background-image: linear-gradient(white, red);
+            animation-name: ai;
+            animation-duration: 5s;
+            text-align: center;
+        }
+
+        @keyframes ai {
+            from {
+                background-image: linear-gradient(white, red);
+            }
+
+            to {
+                background-image: linear-gradient(white, blue);
+            }
+        }
+
+        h4 {
+            text-align: left;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 100;
+            color: green;
+
+        }
+
+        .footer {
+            margin: 0px;
+            background-color: black;
+            width: 100%;
+            height: 300px;
+            display: inline;
+            display: flex;
+        }
+
+        .Sub {
+            margin: 40px;
+            width: 300px;
+            height: 300px;
+            display: inline;
+
+        }
+
+        .white {
+            color: white;
+            font-size: large;
+            text-align: left;
+        }
+
+        .white_1 {
+            color: white;
+            display: inline;
+            font-size: small;
+        }
+
+        h3 {
+            color: brown;
+        }
+
+        .work,
+        li {
+            justify-content: center;
+            text-align: center;
+            color: brown;
+            font-size: large;
+        }
+
+        h2 {
+            text-decoration-line: none;
+        }
+        .pp{
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            position:absolute;
+            top: 60%;
+            bottom: 30%;
+            left: 60px;
+        }
+        .ppp{
+            position:absolute;
+            top:10px;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            color:white;
+        }
+        .imgg{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>MyCookBook</h1>
+        <div class="D1">
+            <div class="items"><a href="about_us.html" target="_blank">About us</a></div>
+            <div class="items"><a href="work.html" target="_blank">Work with us</a></div>
+            <div class="items"><a href="suggestion.html" target="_blank">Feedback Form!</a></div>
+            <div class="items"><a href="contact.html" target="_blank">Contact us</a></div>
+        </div>
+    </div>
+    <hr>
+    </hr>
+    <div class="imgg">
+        <img src="main.jpg" alt="" width="100%" height="500px">
+        <p class="ppp">Welcoming you to my food bank to explore the art of flavours!</p>
+    <div class="pp">MyCookBook is here to help you all with some really yummy, delicious and outstanding recipes. As it is truly said
+        by Wolfgang Puck that “Cooking is like painting or writing a song. Just as there
+        are only so many notes or colors, there are only so many flavors—it’s how you combine them that sets you apart.”
+        The food should taste good, be easy in procedure and all the ingredients should be easily available at home are
+        few major points that we always look up to whenever we provide any recipe on our page! 
+    </div>
+    </div>
+    <div class="section">
+        <p>My most popular and yummy recipes</p>
+        <h1>
+            <p>HEALTHY RECIPES</p>
+        </h1>
+        <div class="highlight">
+            <div class="elements">
+                <h2>HEALTHY SALAD SANDWICH RECIPE</h2>
+                <a href="recipe1.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="sandwich.webp" alt="" width="300px" height="auto">
+            </div>
+            <div class="elements">
+                <h2>VEGETABLE SOUP RECIPE</h2>
+                <a href="recipe3.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="soup.jpg" alt="" width="300px" height="200px">
+            </div>
+            <div class="elements">
+                <h2>MIXED BERRIES AND BANANA SMOOTHIE</h2>
+                <a href="recipe2.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="smoothie.webp" alt="" width="300px" height="200px">
+            </div>
+        </div>
+        <!-- <hr>
+        </hr> -->
+        <h2>
+            <p>YUMMIEST COOKIES</p>
+        </h2>
+        <div class="highlight">
+            <div class="elements">
+                <h2>CHOCOLATE CHIPS COOKIES</h2>
+                <a href="recipe4.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="chocolate.jpg" alt="" width="300px" height="auto">
+            </div>
+            <div class="elements">
+                <h2>PEANUT BUTTER COOKIES</h2>
+                <a href="recipe5.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="peanut butter.jpg" alt="" width="300px" height="200px">
+            </div>
+            <div class="elements">
+                <h2>DELICIOUS SNOWBALL COOKIES</h2>
+                <a href="recipe6.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="snowball.jpg" alt="" width="300px" height="210px">
+            </div>
+        </div>
+        <!-- <hr>
+        </hr> -->
+        <h2>
+            <p>HAPPY LUNCH!</p>
+        </h2>
+        <div class="highlight">
+            <div class="elements">
+                <h2>DAL KHICHDI</h2>
+                <a href="recipe7.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="khichdi.jpg" alt="" width="300px" height="200px">
+            </div>
+            <div class="elements">
+                <h2>ALOO TIKII</h2>
+                <a href="recipe8.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="tikki.webp" alt="" width="300px" height="200px">
+            </div>
+            <div class="elements">
+                <h2>PALAK PANEER</h2>
+                <a href="recipe9.html" target="_blank">VIEW RECIPE</a>
+                <br></br>
+                <img src="paneer.webp" alt="" width="300px" height="200px">
+            </div>
+        </div>
+        <hr>
+        </hr>
+        <div class="footer">
+            <div class="Sub">
+                <h2 class="white">About Us:</h2>
+                <p class="white">Cooking has always been my passion! MyCooKBook is all about different recipes,
+                    different ideas, food,
+                    flavours and taste! I always try to do something new with the flavours and create a delicious dish
+                    possible! Here in MyCookBook I have shared few of my favourite recipes.</p>
+            </div>
+            <div class="Sub">
+                <h2 class="white">Contact Us:</h2>
+                <p class="white">
+                <p class="white_1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="44" height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg>
+                    <a href="www.instagram.com"></a>
+                </p>
+                <p class="white_1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" width="44"
+                        height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                        <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                        <line x1="3" y1="19" x2="9" y2="13" />
+                        <line x1="15" y1="13" x2="21" y2="19" />
+                    </svg>
+                    <a href="www.instagram.com"></a>
+                </p>
+                <p class="white_1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin"
+                        width="44" height="33" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00abfb" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="11" x2="8" y2="16" />
+                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                        <line x1="12" y1="16" x2="12" y2="11" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                    </svg>
+                    <a href="www.linkedin.com"></a>
+                    <br>
+                <h2 class="white">9028237546</h2>
+                <h2 class="white">anushkakalpund@gmail.com</h2>
+                </p>
+                </p>
+            </div>
+            <div class="Sub">
+                <h2 class="white">Anushka Kalpund <br> Owner of MyCookBook</h2>
+                <p class="white">
+                    Jaimala Nagar, Old Sangvi.
+                    <br>
+                    City: Pune
+                    State: Maharashtra
+                    <br>
+                    9028237546
+                    <br>
+                    anushkakalpund@gmail.com
+                </p>
+            </div>
+            <div class="Sub">
+                <h2 class="white">Direction</h2>
+                <p class="white">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15128.141285816608!2d73.81880045!3d18.57244625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf4aab3ecf61%3A0x1c28cc07831147dc!2sOld%20Sangvi%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1672247299256!5m2!1sen!2sin"
+                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+        </div>
+</body>
+
+</html>
